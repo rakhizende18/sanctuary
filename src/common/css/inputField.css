@@ -1,0 +1,10 @@
+.inputs {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  input[type='checkbox']{
+    margin-top: -15px;
+  }

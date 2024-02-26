@@ -1,0 +1,15 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputs {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 10px;
+  margin-top: 10px;
+}
