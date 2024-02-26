@@ -4,19 +4,13 @@
 }
 
 .petCards{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
   padding: 50px 0;
 }
 .petDetailsContainer {
-  -ms-flex-preferred-size: calc(33.33333% - 30px);
   flex-basis: calc(33.33333% - 30px);
   margin: 0 15px 30px;
   overflow: hidden;
@@ -53,8 +47,6 @@
   top: -75px;
   right: -75px;
   border-radius: 50%;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .petDetailsContainer:nth-child(2n) .petDetailsBg {
@@ -75,7 +67,6 @@
 
 @media only screen and (max-width: 979px) {
   .petDetailsContainer {
-    -ms-flex-preferred-size: calc(50% - 30px);
     flex-basis: calc(50% - 30px);
   }
   .petDetailsHeader {
@@ -90,7 +81,6 @@
 }
 @media only screen and (max-width: 639px) {
   .petDetailsContainer {
-    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
   .petDetailsHeader {
@@ -108,7 +98,7 @@
 }
 .buttonContainer {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .buttonContainer button {
   border: none;
